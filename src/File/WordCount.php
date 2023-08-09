@@ -68,11 +68,11 @@ class WordCount extends AbstractValidator
      * It also accepts an array with the keys 'min' and 'max'
      *
      * If $options is an integer, it will be used as maximum word count
-     * As Array is accepts the following keys:
+     * As Array, it accepts the following keys:
      * 'min': Minimum word count
      * 'max': Maximum word count
      *
-     * @param int|array|Traversable $options Options for the adapter
+     * @param int|array|Traversable $options Options for the constructor
      */
     public function __construct($options = null)
     {
